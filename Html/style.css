@@ -4,7 +4,83 @@
 }
 
 /********************Output Page ******************/
+body {
+  border: 1px solid;
+  width: 98%;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+section.preview {
+  display: flex;
+  gap: 20px;
+  /* max-width: 1000px; */
+  /* border: 1px solid;
+  width: 98%;
+  margin: 20px auto; */
+}
 
+ul.container {
+  width: 30%;
+  margin: 30px auto 0;
+  color: white;
+}
+hr#line_before_heading {
+  width: 14px;
+  padding: 1px;
+  background: white;
+  border: 0;
+}
+hr#line_before_heading_black {
+  width: 14px;
+  padding: 1px;
+  background: #38aebd;
+  border: 0;
+}
+h3#skills {
+  color: white;
+}
+.preview_main {
+  width: 250px;
+  background: #38aebd;
+}
+.preview_image {
+  border: 0;
+  width: 180px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: white;
+  margin: 0 auto;
+}
+img.preview_image_img {
+  border-radius: 100%;
+  width: 125px;
+}
+.preview_main_details {
+  width: 75%;
+  margin: 20px auto;
+  line-height: 30px;
+}
+h1#first_name,
+h1#second_name {
+  font-size: 50px;
+  line-height: 50px;
+}
+.details {
+  margin: 20px 0;
+}
+h3 {
+  color: #38aebd;
+}
+.summary {
+  margin: 30px 0;
+}
+footer {
+  text-align: center;
+  background: #38aebd;
+  font-weight: 500;
+  font-size: 12px;
+  color: white;
+}
 /***************** Input Page 1 *********************/
 
 /***************** Input Page 2 *********************/
