@@ -1,0 +1,107 @@
+/*********** Page - 1 - CSS ***************/
+
+
+body {
+    margin: 50px 60px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #42a6befa;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: #42a6befa;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upload-area {
+    margin: 0 auto;
+    width: 150px;
+    display: block;
+    cursor: pointer;
+    background-color: #42a6befa;
+    border-radius: 75px;
+    border: 1px solid #42a6befa;
+}
+
+.upload-area:hover {
+    background-color: black;
+}
+
+img.upload-area {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.input-field-1 input {
+    width: 30%;
+    border-radius: 10px;
+    outline: none;
+    height: 50px;
+    font-size: 18px;
+    border: 0.1px solid #42a6befa;
+    margin: 15px auto;
+    padding-left: 20px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.input-field-2 input {
+    width: 45%;
+    border-radius: 10px;
+    outline: none;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid #42a6befa;
+    margin: 15px auto;
+    padding-left: 20px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.btn input {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #42a6befa;
+    border: none;
+    color: white;
+    margin: 20px 60px;
+    font-size: 20px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.btn input:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+#dino {
+    width: 300px;
+    position: relative;
+    right: 50px;
+    margin: 40px 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .input-field-1 input {
+        width: 100%;
+    }
+
+    .input-field-2 input {
+        width: 100%;
+    }
+
+    .btn input {
+        margin: 20px 30px;
+    }
+}    
+    
+/*********** Page - 1 - CSS ***************/
